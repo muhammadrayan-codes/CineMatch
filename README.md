@@ -34,6 +34,8 @@ SVD achieved the best performance across all metrics.
 ---
 
 ## Project Structure
+
+```
 cinematch/
 ├── notebook/
 │   └── cinematch.ipynb       # Full training notebook (Colab)
@@ -46,6 +48,7 @@ cinematch/
 ├── app.py                    # Streamlit web application
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## Web Application
