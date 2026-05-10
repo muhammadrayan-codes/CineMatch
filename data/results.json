@@ -1,0 +1,23 @@
+[
+  {
+    "Recall@10": 0.1457,
+    "Precision@10": 0.1158,
+    "NDCG@10": 0.1646,
+    "HitRatio@10": 0.6168,
+    "model": "SVD"
+  },
+  {
+    "Recall@10": 0.1298,
+    "Precision@10": 0.1068,
+    "NDCG@10": 0.1465,
+    "HitRatio@10": 0.581,
+    "model": "NCF"
+  },
+  {
+    "Recall@10": 0.0825,
+    "Precision@10": 0.0678,
+    "NDCG@10": 0.0928,
+    "HitRatio@10": 0.4322,
+    "model": "LightGCN"
+  }
+]
