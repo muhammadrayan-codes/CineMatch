@@ -4,14 +4,9 @@ import pandas as pd
 import torch
 import torch.nn as nn
 import requests
-import os
 import re
 import json
 import numpy as np
-
-from dotenv import load_dotenv
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
-OMDB_API_KEY = os.getenv("OMDB_API_KEY")
 
 # ── Model definition ──────────────────────────────────────────────────────────
 class MatrixFactorization(nn.Module):
